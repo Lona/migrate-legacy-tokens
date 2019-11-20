@@ -1,0 +1,11 @@
+{
+  "name": "@lona/migrate-legacy-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "license": "MIT",
+  "dependencies": {
+    "csscolorparser": "^1.0.3",
+    "sywac": "^1.2.2"
+  }
+}
