@@ -37,7 +37,7 @@ exports.convertTextStyles = function convertTextStyles({
       if (!resolved) {
         console.warn(`Failed to resolve textStyle: ${textStyle.id}`);
       }
-      return resolved;
+      return Object.assign({}, resolve(resolved), textStyle);
     }
     return textStyle;
   }
